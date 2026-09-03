@@ -763,6 +763,20 @@
         </div>
       </div>
       <div class="skill-card">
+        <span class="skill-icon">🛰️</span>
+        <h3>asm & continuous monitoring</h3>
+        <div class="skill-tags">
+          <span class="tag">cert_sans</span>
+          <span class="tag">ct_log</span>
+          <span class="tag">dns_resolve</span>
+          <span class="tag">rdap</span>
+          <span class="tag">repo_meta</span>
+          <span class="tag">rir_asn</span>
+          <span class="tag">cloud_api</span>
+          <span class="tag">cloud_ranges</span>
+        </div>
+      </div>
+      <div class="skill-card">
         <span class="skill-icon">💻</span>
         <h3>dev & platforms</h3>
         <div class="skill-tags">
@@ -774,6 +788,18 @@
           <span class="tag">Git</span>
           <span class="tag">TCP/IP</span>
           <span class="tag">HTTP/HTTPS</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">☁️</span>
+        <h3>cloud & ai security (learning)</h3>
+        <div class="skill-tags">
+          <span class="tag">Azure</span>
+          <span class="tag">CIS Benchmark</span>
+          <span class="tag">IAM/MFA</span>
+          <span class="tag">NSGs</span>
+          <span class="tag">Prompt Injection</span>
+          <span class="tag">LLM Security</span>
         </div>
       </div>
     </div>
@@ -795,6 +821,7 @@
           <li>Delivered structured reports with severity ratings, PoC steps, and remediation guidance reviewed by senior analysts</li>
           <li>Performed retesting cycles post-remediation to verify closures and maintain client audit trail</li>
           <li>Standardized methodology using Burp Suite, Nmap, Nikto, and sqlmap across multiple client engagements</li>
+          <li>Support continuous attack surface monitoring (ASM) on the team's PTaaS product — passive sources (ct_log, dns_resolve, rdap, repo_meta, rir_asn, cloud_api, cloud_ranges, cert_sans) and active checks (httpx, katana, naabu, tls_cert, screenshot) flag exposures on client assets, which are manually verified and confirmed before escalation to exploitation and client reporting</li>
         </ul>
       </div>
       <div class="tl-item">
@@ -849,6 +876,22 @@
         <p>End-to-end workflow: subdomain enumeration via Sublist3r + crt.sh → live host filtering with httpx → parameter fuzzing with Arjun. Applied across 10+ real-world bug bounty targets — yielded XSS, IDOR, SSRF, and auth bypass findings.</p>
         <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 6px;">
           <span class="tag">Sublist3r</span><span class="tag">httpx</span><span class="tag">Arjun</span><span class="tag">crt.sh</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-badge badge-lab">in progress</span>
+        <h3>Cloud Security — CIS Azure Benchmark</h3>
+        <p>Studying the CIS Microsoft Azure Foundations Benchmark and building a hands-on Azure lab to practice configuration auditing — IAM/MFA policies, network security groups, storage access controls, and logging — against benchmark controls.</p>
+        <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 6px;">
+          <span class="tag">Azure</span><span class="tag">IAM/MFA</span><span class="tag">NSGs</span><span class="tag">CIS Benchmark</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-badge badge-recon">self-directed</span>
+        <h3>AI/LLM Security</h3>
+        <p>Exploring adversarial AI/LLM security — direct and indirect prompt injection methodologies. Completed Lakera's Gandalf challenge and additional labs to build practical understanding of jailbreak and injection defense mechanisms. Early-stage and ongoing.</p>
+        <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 6px;">
+          <span class="tag">Prompt Injection</span><span class="tag">LLM Security</span><span class="tag">Gandalf CTF</span>
         </div>
       </div>
     </div>
